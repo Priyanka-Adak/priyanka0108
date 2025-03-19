@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="election.png" alt="logo">
+            <h3>Voting System</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Start Voting</a></li>
+                <li><a href="#">Reset</a></li>
+                <li><a href="#">Edit Title</a></li>
+                <li><a href="#">Go to Home Page</a></li>
+            </ul>
+        </nav>
+        <a href="Index.html" class="logout-btn"><ion-icon name="log-out"></ion-icon> Logout</a>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <header>
+            <h1>Welcome to eVotix</h1>
+        </header>
+
+        <!-- Dashboard Section -->
+            <div class="status-generator-container">
+                <section class="status">
+                <h2>Voting Status</h2>
+                <p id="statusText">No status available.</p>
+                <p>Soon data will be available when the election process is started.</p>
+                <h4>Click on <span class="start-btn">Start Voting</span> to start.</h4>
+                <h4>Click <span class="stop-btn">Stop Voting</span> to stop.</h4>
+                </section>
+    
+
+            <section class="generator">
+                <h2>Verification Code</h2>
+                <h4>Generate Verification Code</h4>
+                <button id="btn" onclick="generateCode()">Generate</button>
+                <p class="warning">Do not share this code!</p>
+                <p id="codeDisplay"></p>
+        </section>
+        </div>
+
+        <!-- Candidates Section -->
+        <section class="candidates">
+            <h2>Register Candidates</h2>
+            <div class="candidate-form">
+                <input type="text" id="name" placeholder="Candidate Name">
+                <input type="text" id="position" placeholder="Position">
+                <input type="file" id="image">
+                <button id="btn1" onclick="addCandidate()">Add</button>
+            </div>
+            <p class="candidate-info">Enter candidate details and click "Add".</p>
+        </section>
+    </main>
+
+    <script src="script1.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        
+
+</body>
+</html>
