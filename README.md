@@ -6,7 +6,7 @@
 
 - 📫 How to reach me **priyankaadak0108@gmail.com**
 
-- 📄 Know about my experiences []()
+- 📄 Know about my experiences [file:///C:/Users/priya/OneDrive/Documents/priyankaadak.pdf](file:///C:/Users/priya/OneDrive/Documents/priyankaadak.pdf)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
